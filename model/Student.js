@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const schema = mongoose.Schema({
     StudentName: String,
     StudentMobile: Number,
-    StudentEmail: String
+    StudentEmail: String,
+    StudentPassword: String
 });
 
 module.exports = mongoose.model("Student",schema);
